@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1220</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>765</width>
+    <height>470</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(61, 61, 61);</string>
+  </property>
+  <widget class="QPushButton" name="api_submit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>675</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:10pt;</string>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="list">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>260</width>
+     <height>620</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:10pt;</string>
+   </property>
+   <property name="isWrapping" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refresh">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>410</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:12pt;</string>
+   </property>
+   <property name="text">
+    <string>Обновить данные</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="api">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>675</y>
+     <width>821</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+background-color: rgb(70, 70, 70);
+font-size:10pt;</string>
+   </property>
+   <property name="placeholderText">
+    <string>API-Бота</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="api_2">
+   <property name="geometry">
+    <rect>
+     <x>909</x>
+     <y>675</y>
+     <width>301</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+background-color: rgb(70, 70, 70);
+font-size:10pt;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Chat ID</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="list_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>140</width>
+     <height>620</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:10pt;</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="list_5">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>50</y>
+     <width>160</width>
+     <height>620</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:10pt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>10</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:12pt;</string>
+   </property>
+   <property name="text">
+    <string>Запуск</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="okno">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>50</y>
+     <width>610</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+background-color: rgb(70, 70, 70);
+font-size:10pt;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="console">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>389</y>
+     <width>610</width>
+     <height>280</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+background-color: rgb(70, 70, 70);
+font-size:8pt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_conf">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:12pt;</string>
+   </property>
+   <property name="text">
+    <string>Сохранить запрос</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="req_con">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>210</y>
+     <width>610</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+background-color: rgb(70, 70, 70);
+font-size:10pt;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>240</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:12pt;</string>
+   </property>
+   <property name="text">
+    <string>Использовать конструктор?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_req">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>10</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(208, 208, 208);
+font-size:12pt;</string>
+   </property>
+   <property name="text">
+    <string>Удалить запросы</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
